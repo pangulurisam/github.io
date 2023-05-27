@@ -5,31 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
 </head>
 <body>
-
     <table>
         <thead>
-            <tr>
-                <th> SR </th>
-                <th> DATE </th>
-                <th> TASK </th>
-                <th> DESCRIPTION </th>
-                <th> LINK </th>
-            </tr>
-        </thead>
-        <tbody>
             <tr>
                 <th>1</th>
                 <th>25th May</th>
                 <th>Daily Task</th>
                 <th>Ensure to update daily</th>
-                <th> <a href="/"> My Page</a></th>
+                <th><a href="/">My Page</a><br><br></th>
+            </tr>
+            <tr>
+                <th>2</th>
+                <th>25th May</th>
+                <th>Daily Task to complete atleast 3 problems given on : 25th May 2023</th>
+                <th>Completed the three problems. The Problems are :<br>1.Case Insensitive Palindrome <br>2. Check Anagrams<br>3. Two sum</th>
+                <th>
+                    <a href="https://mentorpick.com/code?cid=1ff23360-aee2-4cac-b120-9e1f9df192b6&cslug=klu-y20-elite-cohort-1&pid=f3469ca9-f55d-4b46-b811-b9b2bad87017&pslug=bzCaseInsensitivePalindrome&courseId=707da31b-c631-42e7-b3fc-61b8e33cc62a&sectionId=undefined">Case Insensitive Palindrome</a><br><br>
+                    <a href="https://mentorpick.com/code?cid=1ff23360-aee2-4cac-b120-9e1f9df192b6&cslug=klu-y20-elite-cohort-1&pid=e919fef8-7c4f-4457-aa27-a0e02eb1fe3d&pslug=check-anagram&courseId=707da31b-c631-42e7-b3fc-61b8e33cc62a&sectionId=undefined">Check Anagrams</a><br><br>
+                    <a href="https://mentorpick.com/code?cid=1ff23360-aee2-4cac-b120-9e1f9df192b6&cslug=klu-y20-elite-cohort-1&pid=6d6539e0-254b-4ac5-b688-430d56ba9742&pslug=bz-two-sum&courseId=707da31b-c631-42e7-b3fc-61b8e33cc62a&sectionId=undefined">Two Sum</a><br><br>
+                </th>
             </tr>
         </tbody>
     </table>
-    <script src="/site.js"> </script>
-    
+    <script src="/site.js"></script>
 </body>
 </html>
