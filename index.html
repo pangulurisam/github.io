@@ -5,31 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
 </head>
 <body>
-
     <table>
         <thead>
             <tr>
-                <th> SR </th>
-                <th> DATE </th>
-                <th> TASK </th>
-                <th> DESCRIPTION </th>
-                <th> LINK </th>
+                <th>SR</th>
+                <th>DATE</th>
+                <th>TASK</th>
+                <th>DESCRIPTION</th>
+                <th>LINK</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th>1</th>
-                <th>26th May</th>
-                <th>Daily Task</th>
-                <th>Ensure to update daily</th>
-                <th> <a href="/">  Page</a></th>
+                <td>1</td>
+                <td>26th May</td>
+                <td>Daily Task</td>
+                <td>Ensure to update daily</td>
+                <td><a href="/">Page</a></td>
             </tr>
         </tbody>
     </table>
-    <script src="/site.js"> </script>
-    
+    <script src="/site.js"></script>
 </body>
 </html>
