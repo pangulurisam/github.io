@@ -2,3 +2,20 @@ table, tr, td, th{
     border: 2px solid black;
     border-collapse: collapse;
 }
+#myName{
+    text-align: center;
+}
+.ContactDetails{
+    text-align: center;
+}
+h4{
+    color: red;
+}
+h3{
+    color: blue;
+}
+td{
+    padding: 10px;
+    border: 1px;
+    border-color: black;
+}
